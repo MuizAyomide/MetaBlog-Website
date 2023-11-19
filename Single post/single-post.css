@@ -1,0 +1,160 @@
+.single-post{
+margin: 30px auto;
+width: 300px;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.heading p{
+    font-size: 0.7rem;
+}
+.heading h2{
+    color: var(--clr-dark);
+    font-size: 0.9rem;
+    line-height: 1.3em;
+}
+.imgsec{
+    width: 300px;
+    margin: 0 auto;
+}
+.auth img{
+    width: 30px;
+    height: 30px;
+}
+.auth{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+.auth .info{
+    display: flex;
+    gap: 10px;
+    color: var(--clr-dark-txt1);
+}
+.all-txt{
+    margin: auto auto;
+    width: 300px;
+}
+.all-txt p{
+    color: var(--clr-dark-txt1);
+    /* max-width: 72ch; */
+    line-height: 1em;
+    padding: 20px 0;
+    margin: auto;
+}
+.lastp{
+    margin-bottom: 40px !important;
+}
+.all-txt h2{
+    font-size: 1rem;
+    color: var(--clr-dark);
+    margin: 5px 0 auto auto;
+}
+.ads-section{
+    margin: 20px auto;
+}
+.commentsec{
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #E8E8EA;
+    border-left: 2px solid #696A75;
+    border-radius: 8px;
+    width: 300px;
+}
+.commentsec p{
+    max-width: 72ch;
+    line-height: 1.1em;
+}
+
+
+/* xs */
+@media(min-width: 475px){
+    .single-post{
+        margin: 30px auto;
+        width: 460px;
+        }
+        .heading p{
+            font-size: 0.75rem;
+        }
+        .heading h2{
+            font-size: 1.3rem;
+            line-height: 1.2em;
+        }
+        .imgsec{
+            width: 460px;
+        }
+        .all-txt{
+            width: 460px;
+        }
+        .commentsec{
+            width: 460px;
+        }
+}
+/* sm */
+@media(min-width: 640px){
+    .single-post{
+        margin: 30px auto;
+        width: 600px;
+        }
+        .heading p{
+            font-size: 0.8rem;
+        }
+        .heading h2{
+            font-size: 1.5rem;
+            line-height: 1.1em;
+        }
+        .imgsec{
+            width: 600px;
+        }
+        .all-txt{
+            width: 600px;
+        }
+        .commentsec{
+            width: 600px;
+        }
+}
+/* md */
+@media(min-width: 786px){
+        
+}
+/* lg  */
+@media(min-width: 1024px){
+    .single-post{
+        width: 900px;
+        }
+        .heading p{
+            font-size: 1rem;
+        }
+        .heading h2{
+            font-size: 2rem;
+            line-height: 1.1em;
+        }
+        .imgsec{
+            width: 900px;
+        }
+        .all-txt{
+            width: 900px;
+        }
+        .commentsec{
+            width: 900px;
+        }
+        .all-txt p{
+            font-size: 1.15rem;
+            line-height: 1.2em;
+        }
+       
+        .all-txt h2{
+            font-size: 1.2rem;
+        }
+}
+/* xlg */
+@media(min-width: 1280px){
+        
+}
+/* 2xlg */
+@media(min-width: 1536px){
+        
+}
