@@ -1,0 +1,271 @@
+.blog-section{
+    width: 300px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blog-section h3{
+    font-size: 0.8rem;
+    margin: 20px 0;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #97989f5d;
+    border-radius: 9px;
+    width: 300px;
+}
+
+.list .blog-img{
+    width: 290px;
+    margin: 0px auto;
+}
+
+.author{
+    flex-direction: column;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+.list .author h2{
+    color: var(--clr-dark);
+    font-size: 1rem;
+    line-height: 1rem;
+    padding: 7px 0;
+}
+
+.author-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.blog-list{
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+}
+.btn{
+    margin: 40px;
+    background-color: transparent;
+    border: 1px solid #97989f5d;
+    padding: 1.5em 2em;
+    color: var(--clr-dark-txt);
+    border-radius: 9px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: 200px;
+}
+.author .technology{
+    background-color: #a4a5ac5d;
+    color: var(--clr-blue);
+}
+
+/* xs */
+@media(min-width: 475px){
+    .blog-section{
+        width: 475px;
+       padding: 0 28px;
+    }
+     .list{
+        gap: 10px;
+        padding: 10px;
+        width: 400px;
+    }
+    
+    .list .blog-img{
+        width: 380px;
+    }
+        
+    .list .author h2{
+        font-size: 1.5rem;
+        line-height: 1.4rem;
+        padding: 7px 0;
+    }
+    
+    .author-info{
+        gap: 10px;
+        padding: 10px 0;
+    }
+        
+}
+/* sm */
+@media(min-width: 640px){
+    .blog-section{
+        width: 640px;
+        padding: 0 50px;
+    }
+    .blog-section h3{
+        font-size: 0.9rem;
+        margin: 20px 0;
+    }
+     .list{
+        gap: 10px;
+        padding: 10px;
+        width: 500px;
+    }
+    
+    .list .blog-img{
+        width: 480px;
+    }
+        
+    .list .author h2{
+        font-size: 2rem;
+        line-height: 1.9rem;
+        padding: 7px 0;
+    }
+
+    .blog-list{
+        flex-direction: row;
+        flex-wrap: wrap;
+     } 
+    
+    .author-info{
+        gap: 10px;
+        padding: 10px 0;
+    }
+            
+}
+
+/* md */
+@media(min-width: 786px){
+    .blog-section{
+        width: 786px;
+        padding: 0 0px;
+    }
+    .blog-section h3{
+        font-size: 1rem;
+        margin: 20px 5px;
+        font-weight: 600;
+    }
+    .list{
+        gap: 10px;
+        padding: 10px;
+        width: 370px;
+    }
+    
+    .list .blog-img{
+        width: 350px;
+    }
+        
+    .list .author h2{
+        font-size: 1.5rem;
+        line-height: 1.4rem;
+        padding: 7px 0;
+    }
+    
+    .author-info{
+        gap: 10px;
+        padding: 10px 0;
+    }
+
+    .blog-list{
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+     } 
+    
+    .author-info{
+        gap: 10px;
+        padding: 10px 0;
+    }
+            
+        
+}
+/* lg  */
+@media(min-width: 1024px){
+    .blog-section{
+        width: 1024px;
+    }
+    .blog-section h3{
+        font-size: 1.4rem;
+        margin: 20px 25px;
+        font-weight: 600;
+
+    }
+    .list{
+        gap: 10px;
+        padding: 10px;
+        width: 300px;
+    }
+    
+    .list .blog-img{
+        width: 280px;
+    }
+        
+    .list .author h2{
+        font-size: 1.3rem;
+        line-height: 1.2rem;
+    }
+    
+    .author-info{
+        gap: 10px;
+        padding: 5px 0;
+    }
+
+    .blog-list{
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+     } 
+    
+    .author-info{
+        gap: 10px;
+        padding: 10px 0;
+    }
+            
+}
+    
+@media(min-width: 1280px){
+    .blog-section{
+        width: 1280px;
+    }
+    .blog-section h3{
+        font-size: 1.8rem;
+        margin: 40px 5px;
+        font-weight: 800;
+    }
+    .list{
+        gap: 10px;
+        padding: 10px;
+        width: 400px;
+    }
+    
+    .list .blog-img{
+        width: 380px;
+    }
+        
+    .list .author h2{
+        font-size: 1.8rem;
+        line-height: 1.6rem;
+    }
+    
+    .author-info{
+        gap: 10px;
+        padding: 5px 0;
+    }
+
+    .blog-list{
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+     } 
+    
+    .author-info{
+        gap: 10px;
+        padding: 10px 0;
+    }
+}
+    
+/* 2xlg */
+@media(min-width: 1536px){
+
+        
+}
